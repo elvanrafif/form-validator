@@ -1,4 +1,4 @@
-### README for `Form validator`
+### README for `Form Validator`
 
 ---
 
@@ -20,12 +20,14 @@ A modern Next.js application utilizing powerful tools like React Hook Form, Type
 
 ## Installation
 
-Clone the repository and install the dependencies:
+This project is already deployed. You can access it [here](https://elvanrafif-form-validator.vercel.app/).
 
+If you'd like to run the project locally:
 ```bash
-git clone https://github.com/your-username/my-app.git
-cd my-app
+git clone https://github.com/elvanrafif/form-validator.git
+cd form-validator
 npm install
+npm run dev
 ```
 
 ---
