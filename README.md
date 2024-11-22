@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### README for `my-app`
 
-## Getting Started
+---
 
-First, run the development server:
+# My App
+
+A modern Next.js application utilizing powerful tools like React Hook Form, TypeScript, Zod, and ShadCN UI components to build and validate dynamic forms efficiently.
+
+## Features
+
+- **Next.js**: Fast, flexible React framework for web applications.
+- **React Hook Form**: Simplifies form management and validation.
+- **Zod**: Provides type-safe schema validation.
+- **Radix UI**: Accessible UI primitives for dialogs, labels, and popovers.
+- **Tailwind CSS**: Utility-first CSS framework with Tailwind Merge for enhanced styling control.
+- **Lucide Icons**: Crisp and customizable icons.
+- **TypeScript**: Type-safe development with enhanced IDE support.
+
+---
+
+## Installation
+
+Clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/my-app.git
+cd my-app
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev`: Start the development server.
+- `npm run build`: Build the application for production.
+- `npm run start`: Start the production server.
+- `npm run lint`: Run ESLint for code quality checks.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js**: `^14.2.16`
+- **React**: `^18`
+- **TypeScript**: `^5`
+- **React Hook Form**: `^7.53.2`
+- **Zod**: `^3.23.8`
+- **Tailwind CSS**: `^3.4.1`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Folder Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```plaintext
+my-app/
+├── components/    # Reusable components
+├── pages/         # Application pages (Next.js routing)
+├── styles/        # Tailwind CSS and global styles
+├── utils/         # Utilities and helper functions
+├── public/        # Static assets
+├── package.json   # Project configuration
+└── README.md      # Project documentation
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Contribution
+
+Feel free to fork this repository, open issues, or submit pull requests.
+
+---
+
+## License
+
+This project is licensed under [MIT License](LICENSE).
+
+---
+
+## Acknowledgements
+
+- [React Hook Form Documentation](https://react-hook-form.com/)
+- [Zod Documentation](https://zod.dev/)
+- [Radix UI Primitives](https://www.radix-ui.com/)
+- [Next.js Documentation](https://nextjs.org/docs)
