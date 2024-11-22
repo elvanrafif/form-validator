@@ -1,4 +1,4 @@
-### README for `my-app`
+### README for `Form validator`
 
 ---
 
